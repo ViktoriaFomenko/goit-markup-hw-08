@@ -1,5 +1,6 @@
 .section--no-padding-top {
   padding-top: 0px;
+  padding-bottom: 94px;
   @media screen and (max-width: 1199px) {
     display: none;
   }
@@ -33,14 +34,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.section__title {
-  color: var(--second-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
 }
