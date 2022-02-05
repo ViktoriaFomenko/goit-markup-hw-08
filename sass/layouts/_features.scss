@@ -16,11 +16,13 @@
 .features__item {
   max-width: 450px;
   height: 226px;
-  &:not(:last-child) {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    &:last-child {
+      margin-bottom: 0px;
+    }
   }
-
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
     width: 354px;
@@ -31,11 +33,12 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     width: 270px;
     height: 251px;
+    margin-bottom: 0px;
   }
 }
 
