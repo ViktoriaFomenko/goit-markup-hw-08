@@ -97,6 +97,8 @@
   align-items: center;
   margin-top: 60px;
   @media screen and (min-width: 1200px) {
+    display: block;
+    margin-top: 0;
   }
 }
 
@@ -160,6 +162,9 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white);
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
 }
 .footer-subscribe__icon {
   margin-left: 10px;
