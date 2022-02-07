@@ -43,7 +43,6 @@
 }
 
 .clients__link {
-  width: 210px;
   height: 92px;
   background-color: var(--white);
   display: flex;
@@ -57,11 +56,9 @@
     border-color: var(--accent-color);
   }
   @media screen and (min-width: 768px) {
-    width: 226px;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 170px;
   }
 }
 
