@@ -503,6 +503,7 @@ body {
 }
 
 .mob-menu.is-hidden {
+  pointer-events: none;
   -webkit-transform: translate(100%);
           transform: translate(100%);
 }

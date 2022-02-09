@@ -15,6 +15,7 @@
 }
 
 .mob-menu.is-hidden {
+    pointer-events: none;
     transform: translate(100%);
 }
 
