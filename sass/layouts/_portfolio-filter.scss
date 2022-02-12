@@ -11,8 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-
-  margin-bottom: 40px;
+  align-items: flex-start;
   @media screen and (min-width: 768px) {
     justify-content: center;
     margin-bottom: 14px;

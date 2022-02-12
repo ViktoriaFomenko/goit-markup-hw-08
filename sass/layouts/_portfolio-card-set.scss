@@ -7,6 +7,11 @@
 }
 
 .card-set__item {
+  &:first-child {
+    @media screen and (max-width: 767px) {
+      margin-top: 25px;
+    }
+  }
   &:not(:last-child) {
     @media screen and (max-width: 767px) {
       margin-bottom: 30px;
